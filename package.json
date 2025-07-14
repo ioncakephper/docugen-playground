@@ -35,6 +35,9 @@
     "preview": "vite preview",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+
+
+  
   "dependencies": {
     "js-yaml": "^4.1.0",
     "prettier": "^3.6.2",
