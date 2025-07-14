@@ -9,8 +9,8 @@
 
 A live, side-by-side editor for converting between Markdown and YAML formats, complete with validation, linting, and theming. This tool is designed to help developers and content creators visualize structured data transformations in real-time.
 
-![Docugen Playground Screenshot](./.github/assets/screenshot.png)
-_(A screenshot of the application would go here)_
+![Docugen Playground Screenshot](./.github/assets/docugen_screenshot_1280x720.png)
+
 
 ## ✨ Features
 
