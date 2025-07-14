@@ -79,10 +79,10 @@ The application will be available at `http://localhost:5173`.
 
 Here are some of the features and improvements we're planning for the future:
 
-    - [ ] **State Persistence**: Save the current editor content and theme to `localStorage` so your work is not lost on page refresh. (#1)
-    - [ ] **Performance Enhancements**: Implement debouncing on editor input to improve performance with large documents. (#2)
-    - [ ] **Shareable Links**: Generate a unique URL to share your playground session with others. (#3)
-    - [ ] **CI/CD Integration**: Set up GitHub Actions for automated testing and deployment. (#4)
+- [ ] **State Persistence**: Save the current editor content and theme to `localStorage` so your work is not lost on page refresh. (#1)
+- [ ] **Performance Enhancements**: Implement debouncing on editor input to improve performance with large documents. (#2)
+- [ ] **Shareable Links**: Generate a unique URL to share your playground session with others. (#3)
+- [ ] **CI/CD Integration**: Set up GitHub Actions for automated testing and deployment. (#4)
 
 ## ❤️ Contributing
 
