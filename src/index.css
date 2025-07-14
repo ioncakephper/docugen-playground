@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #f9f9f9;
+  color: #222;
+}
+
+.app-container {
+  max-width: 980px;
+  margin: auto;
+  padding: 2rem;
+}
+
+.subtitle {
+  color: #666;
+  margin-bottom: 1rem;
+}

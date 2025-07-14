@@ -1,0 +1,98 @@
+.split-container {
+  display: flex;
+  height: 65vh;
+  width: 100%;
+  position: relative;
+  font-family: sans-serif;
+}
+
+.panel {
+  height: 100%;
+  overflow: auto;
+}
+
+.left {
+  background: #f0f0f0;
+}
+
+.right {
+  background: #fff;
+  border-left: 1px solid #ccc;
+}
+
+.divider {
+  width: 6px;
+  background: #ccc;
+  cursor: ew-resize;
+  position: relative;
+  z-index: 10;
+}
+
+.editor {
+  width: 100%;
+  height: 100%;
+  border: none;
+  padding: 1rem;
+  font-size: 14px;
+  font-family: monospace;
+  resize: none;
+  background: inherit;
+}
+
+.preview {
+  white-space: pre-wrap;
+  padding: 1rem;
+  font-size: 14px;
+  font-family: monospace;
+}
+
+.lint-container {
+  padding: 1rem;
+  margin-top: 0.5rem;
+  background: #fff;
+  border-top: 1px solid #ccc;
+}
+
+.lint-container h3 {
+  margin-top: 0;
+  font-size: 16px;
+}
+
+.lint-ok {
+  color: #2d8f2d;
+  font-weight: bold;
+}
+
+.lint-error {
+  color: #b30000;
+}
+
+.lint-warning {
+  color: #cc7700;
+}
+
+.toolbar {
+  display: flex;
+  gap: 1rem;
+  padding: 0.75rem 1rem;
+  background: #eee;
+  border-bottom: 1px solid #ccc;
+}
+
+.button {
+  position: relative;
+  padding: 0.5rem 1rem;
+  background: #d3d3d3;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.button input[type="file"] {
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
