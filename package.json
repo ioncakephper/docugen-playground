@@ -22,7 +22,7 @@
     "playground"
   ],
   "engines": {
-    "node": "^20.19.0 || >=22.12.0",
+    "node": "^20.15.0",
     "npm": ">=8.0.0"
   },
   "type": "module",
@@ -33,7 +33,7 @@
     "lint": "eslint .",
     "format": "prettier --write .",
     "preview": "vite preview",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --passWithNoTests"
   },
 
 
@@ -54,8 +54,9 @@
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.20",
     "globals": "^16.3.0",
+    "jest": "^30.0.4",
     "postcss": "^8.5.6",
     "tailwindcss": "^4.1.11",
-    "vite": "^7.0.4"
+    "vite": "^5.3.3"
   }
 }
