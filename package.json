@@ -1,7 +1,7 @@
 {
   "name": "docugen-playground",
   "private": true,
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "A live, side-by-side editor for converting between Markdown and YAML formats, complete with validation, linting, and theming.",
   "author": "ioncakephper (https://github.com/ioncakephper)",
   "license": "MIT",
