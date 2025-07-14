@@ -28,6 +28,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "dev:force": "vite --force",
     "build": "vite build",
     "lint": "eslint .",
     "format": "prettier --write .",
