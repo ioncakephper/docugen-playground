@@ -77,7 +77,7 @@ The playground is designed for a straightforward workflow:
 4.  **Use the Toolbar**: A full suite of tools is available to 💾 save the content of either panel, 📋 copy it to your clipboard, 💅 auto-format the YAML, or 🗑️ clear the editors.
 5.  **Check the Linter**: Any structural or syntax errors in the generated YAML will be detailed in the **Lint Messages** panel at the bottom.
 
-## ቴክ Technology Stack
+## ⚙️ Technology Stack
 
 - **Framework**: React
 - **Build Tool**: Vite
