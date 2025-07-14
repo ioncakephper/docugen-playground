@@ -33,38 +33,49 @@ _(A screenshot of the application would go here)_
 
 ## 🛠️ Installation
 
+### Prerequisites
+
+Before you begin, ensure you have [Node.js](https://nodejs.org/) installed on your system. This project's required versions are listed in the `engines` field of the `package.json` file (e.g., Node.js `v20.19.0` or higher).
+
+npm (which comes with Node.js) is used for dependency management.
+
+### Steps
+
 To run the Docugen Playground locally, follow these steps:
 
 1. **Clone the repository:**
 
-    ```bash
-    git clone https://github.com/ioncakephper/docugen-playground.git
-    cd docugen-playground
-    ```
+   ```bash
+   git clone https://github.com/ioncakephper/docugen-playground.git
+   cd docugen-playground
+   ```
 
 2. **Install dependencies:**
 
-    ```bash
-    npm install
-    ```
+   ```bash
+   npm install
+   ```
 
 3. **Start the development server:**
 
-    ```bash
-    npm run dev
-    ```
+   ```bash
+   npm run dev
+   ```
 
 The application will be available at `http://localhost:5173`.
 
 ## 💻 Usage
 
-- **Conversion Mode**: Use the dropdown to switch between `Markdown → YAML` and `YAML → Markdown`.
-- **Templates**: Select a template from the "Template" dropdown to load sample content.
-- **Editors**:
-  - The left panel is the **input** editor. Type or paste your source content here.
-  - The right panel is the **output** preview, which updates in real-time.
-- **Toolbar**: Use the buttons to load files, save content, copy to clipboard, format YAML, or clear the editors.
-- **Linter Panel**: Any validation issues with the generated YAML will appear at the bottom.
+The playground is designed for a straightforward workflow:
+
+1.  **Select Your Mode**: Use the **Conversion Mode** dropdown to choose between `Markdown → YAML` or `YAML → Markdown`.
+2.  **Provide Input**:
+    - Type or paste directly into the left-hand editor panel.
+    - Use the **Template** dropdown to load a pre-defined structure.
+    - Click **📂 Load File** to open a local `.md` or `.yaml` file.
+3.  **View Real-time Output**: The right-hand panel will instantly display the converted result.
+4.  **Use the Toolbar**: A full suite of tools is available to 💾 save the content of either panel, 📋 copy it to your clipboard, 💅 auto-format the YAML, or 🗑️ clear the editors.
+5.  **Check the Linter**: Any structural or syntax errors in the generated YAML will be detailed in the **Lint Messages** panel at the bottom.
 
 ## ቴክ Technology Stack
 
